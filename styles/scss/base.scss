@@ -1,7 +1,7 @@
-@import "_fonts.scss";
-@import "_vars.scss";
-@import "_header.scss";
-@import "welcome-section.scss";
+@use "fonts";
+@use "header";
+@use "welcome-section";
+@use "companies";
 .container {
     width: 1200px;
     margin: 0 auto;
