@@ -90,6 +90,18 @@
         top: 56px;
         background: #EDEDED url('../../img/vector.svg') -386px 35px;
         border-radius: 16px;
+        &::before {
+            content: url('../../img/img__decor_1.svg');
+            position: absolute;
+            top: 431px;
+            left: -125px;
+        }
+        &::after {
+            content: url('../../img/img__decor_2.svg');
+            position: absolute;
+            top: -25px;
+            left: 360px;
+        }
     }
     &__item {
         position: absolute;
