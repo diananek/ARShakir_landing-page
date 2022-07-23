@@ -2,6 +2,7 @@
 @use "header";
 @use "welcome-section";
 @use "companies";
+@use "services";
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -22,4 +23,21 @@
         top: -248px;
         transform: rotate(15deg);
     }
+}
+
+.section-name {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.03em;
 }
