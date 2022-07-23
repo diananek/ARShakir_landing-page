@@ -1,8 +1,10 @@
 @use "fonts";
+@use "vars" as *;
 @use "header";
 @use "welcome-section";
 @use "companies";
 @use "services";
+@use "process";
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -40,4 +42,14 @@
     line-height: 52px;
     text-align: center;
     letter-spacing: -0.03em;
+}
+
+.section-dscr {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: $gray-color-primary;
 }
