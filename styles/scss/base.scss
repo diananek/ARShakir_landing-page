@@ -5,6 +5,7 @@
 @use "companies";
 @use "services";
 @use "process";
+@use "download-app";
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -33,6 +34,9 @@
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
+    &_red {
+        color: $accent-color;
+    }
 }
 
 .section-title {

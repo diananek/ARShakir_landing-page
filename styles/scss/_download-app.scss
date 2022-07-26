@@ -1,0 +1,58 @@
+@use "vars" as *;
+.download-app {
+    padding: 61px 0 58px 0;
+    &__subtitle {
+        margin-bottom: 20px;
+    }
+    &__title {
+        margin-bottom: 23px;
+    }
+    &__dscr {
+        margin-bottom: 24px;
+    }
+    &__btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 178px;
+        height: 53px;
+        border-radius: 80px;
+        border: none;
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        margin: 0 5px;
+        &::before {
+            width: 17px;
+            height: 21px;
+            margin-right: 11px;
+        }
+        &_red {
+            background: $accent-color;
+            &::before {
+                content: url("../../img/download-app/apple.svg");
+            }
+        }
+        &_green {
+            background: $primary-color;
+            box-shadow: 0px 38px 50px rgba(5, 121, 107, 0.2);
+            &::before {
+                content: url("../../img/download-app/google.svg");
+            }
+        }
+    }
+    &__btn-text {
+        // height: 30px;
+        display: inline-flex;
+        align-items: center;
+    }
+}
