@@ -1,0 +1,108 @@
+.dignity {
+    &__container {
+        display: flex;
+        padding: 53px 43px 15px 12px;
+    }
+    &__block {
+        position: relative;
+        width: 400px;
+        height: 480px;
+        background: #F8F9FD;
+        border-radius: 20px;
+        &::after {
+            content: url("../../img/dignity/pattern_1.svg");
+            position: absolute;
+            top: -19px;
+            left: 323px;
+        }
+    }
+    &__img {
+        position: absolute;
+        top: -79px;
+    }
+    &__images {
+        margin-top: 79px;
+    }
+    &__users {
+        position: absolute;
+        top: 233px;
+        left: 233px;
+        padding: 23px 0 19px 26px;
+        width: 262px;
+        height: 297.24px;
+        background: #FFF;
+        border-radius: 12.2573px;
+        color: #111235;
+        font-family: 'Manrope';
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            width: 262px;
+            height: 297.24px;
+            top: 14px;
+            left: 0;
+            background: #000000;
+            opacity: 0.05;
+            filter: blur(61.2865px);
+            border-radius: 12.2573px;
+        }
+        &::after {
+            content: url("../../img/dignity/pattern_2.svg");
+            position: absolute;
+            bottom: -50px;
+            left: -63px;
+        }
+    }
+    &__users-title {
+        font-weight: 800;
+        font-size: 18.386px;
+        line-height: 25px;
+        margin-bottom: 26px;
+    }
+    &__user {
+        display: flex;
+        margin-bottom: 19px;
+    }
+    &__user-img {
+        width: 38.3px;
+        height: 38.3px;
+        margin-right: 13px;
+    }
+    &__user-name {
+        font-weight: 800;
+        font-size: 13.7895px;
+        line-height: 19px;
+        margin-bottom: 4px;
+    }
+    &__user-status {
+        font-weight: 500;
+        font-size: 9.19298px;
+        line-height: 13px;
+        color: #6C6C6C;
+    }
+    &__more {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13.7895px;
+        line-height: 21px;
+        color: #FF6160;
+        margin: 10px 14px 0 0;
+        &::after {
+            content: url("../../img/dignity/arrow.svg");
+            margin-left: 14px;
+        }
+    }
+    &__text {
+        padding-top: 130px;
+        margin-left: 180px;
+    }
+    &__title {
+        margin-bottom: 32px;
+    }
+    &__dscr {
+        margin-bottom: 48px;
+        width: 425px;
+    }
+}
