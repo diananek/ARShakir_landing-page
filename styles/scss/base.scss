@@ -6,6 +6,7 @@
 @use "services";
 @use "process";
 @use "download-app";
+@use "dignity";
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -46,6 +47,9 @@
     line-height: 52px;
     text-align: center;
     letter-spacing: -0.03em;
+    &_left-align {
+        text-align: left;
+    }
 }
 
 .section-dscr {
@@ -56,6 +60,9 @@
     text-align: center;
     letter-spacing: -0.02em;
     color: $gray-color-primary;
+    &_left-align {
+        text-align: left;
+    }
 }
 
 .try-button {
