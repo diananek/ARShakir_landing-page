@@ -1,5 +1,8 @@
 @use "vars" as *;
 .services {
+    background: url("../../img/vector.svg") no-repeat;
+    background-position-x: right;
+    background-size: 60% 100%;
     padding-bottom: 92px;
     &__name {
         font-weight: 700;
@@ -27,6 +30,7 @@
         height: 237px;
         border: 1px solid #E7E7E7;
         border-radius: 15px;
+        background-color: #fff;
         &_accent {
             background-color: $primary-color;
             border: none;
