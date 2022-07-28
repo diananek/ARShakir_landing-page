@@ -1,0 +1,127 @@
+.plans {
+    background: url("../../img/plans-icons/vector_2.svg") no-repeat 0 400px;
+    background-size: 100% 70%;
+    padding: 160px 0 114px 0;
+    &__title {
+        margin-bottom: 32px;
+    }
+    &__dscr {
+        margin-bottom: 34px;
+    }
+    &__cards {
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+    }
+    &__card {
+        margin: 0 16px;
+    }
+}
+
+.plan {
+    width: 362px;
+    height: 646px;
+    padding: 32px 32px 0 32px;
+    border-radius: 16px;
+    font-family: "Manrope";
+    &_basic {
+        background: #FFFFFF;
+        box-shadow: 0px 8px 80px rgba(167, 167, 167, 0.24);
+    }
+    &_premium {
+        background: #05796B;
+        box-shadow: 0px 8px 80px rgba(5, 121, 107, 0.32);
+        color: #FFFFFF;
+    }
+    &__name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        margin-bottom: 32px;
+        &_basic {
+            color: #05796B;
+        }
+    }
+    &__price {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 115%;
+        span {
+            font-size: 16px;
+            letter-spacing: -0.05em;
+        }
+        &_basic {
+            span {
+                color: #8593A3;
+            }
+        }
+    }
+    &__dscr {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 200%;
+        letter-spacing: -0.05em;
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+        border-bottom: 1px solid;
+        &_basic {
+            border-color: rgba(133, 147, 163, 0.16);
+            color: #8593A3;
+        }
+        &_premium {
+            border-color: rgba(255, 255, 255, 0.16);
+        }
+    }
+    &__features {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 200%;
+        letter-spacing: -0.05em;
+        margin-bottom: 32px;
+        &_basic {
+            color: #8593A3;
+        }
+        &_premium {}
+    }
+    &__feature {
+        margin-bottom: 16px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &::before {
+            vertical-align: sub;
+            margin-right: 21.5px;
+        }
+        &_basic {
+            &::before {
+                content: url("../../img/plans-icons/basic-check.svg");
+            }
+        }
+        &_fail {
+            &::before {
+                content: url("../../img/plans-icons/basic-fail.svg");
+            }
+        }
+        &_premium {
+            &::before {
+                content: url("../../img/plans-icons/premium-check.svg");
+            }
+        }
+    }
+    &__btn {
+        width: 298px;
+        height: 57px;
+        border: 1px solid rgba(133, 147, 163, 0.32);
+        background-color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.05em;
+        border-radius: 80px;
+        &_basic {
+            color: #8593A3;
+        }
+        &_premium {}
+    }
+}
