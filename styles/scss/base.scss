@@ -8,6 +8,7 @@
 @use "download-app";
 @use "dignity";
 @use "plans";
+@use "feedbacks";
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -38,6 +39,9 @@
     text-align: center;
     &_red {
         color: $accent-color;
+    }
+    &_blue {
+        color: #3734A9;
     }
 }
 
