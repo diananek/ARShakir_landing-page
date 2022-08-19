@@ -1,0 +1,55 @@
+.slogan-section {
+    padding: 98px 20px 80px 10px;
+    &__container {
+        position: relative;
+        padding: 108px 0 100px 0;
+        width: 1170px;
+        height: 438px;
+        background: #05796B;
+        border-radius: 16px;
+        text-align: center;
+        &::before {
+            content: url("../../img/slogan-section/pattern.svg");
+            position: absolute;
+            top: 49px;
+            right: 131px;
+        }
+        &::after {
+            content: url("../../img/slogan-section/pattern.svg");
+            position: absolute;
+            transform: rotate(90deg);
+            left: 65px;
+            bottom: 80px;
+        }
+    }
+    &__text {
+        position: relative;
+        font-family: 'Manrope';
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 61px;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+        margin-bottom: 41px;
+        &::before {
+            content: url("../../img/feedbacks/pattern_3.svg");
+            position: absolute;
+            top: -50px;
+            left: 155px;
+        }
+    }
+    &__button {
+        width: 223px;
+        height: 67px;
+        background: #FF7F5C;
+        border-radius: 50px;
+        border: none;
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+}
