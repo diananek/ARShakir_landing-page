@@ -10,6 +10,7 @@
 @use "plans";
 @use "feedbacks";
 @use "slogan-section";
+@use "footer";
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -17,6 +18,7 @@
 
 .wrapper {
     position: relative;
+    overflow: hidden;
     &::before {
         content: "";
         position: absolute;
@@ -29,6 +31,18 @@
         right: -20.555556%;
         top: -248px;
         transform: rotate(15deg);
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 1607.58px;
+        height: 820px;
+        background: linear-gradient(165.96deg, #49A4F8 24%, #0FD1BA12 6.96%);
+        opacity: 0.6;
+        filter: blur(200px);
+        transform: rotate(-1.25deg);
+        bottom: -600px;
+        left: 500px;
     }
 }
 

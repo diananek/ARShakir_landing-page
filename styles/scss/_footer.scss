@@ -1,0 +1,111 @@
+@use "vars" as *;
+.footer {
+    font-family: 'Manrope';
+    &__container {
+        padding: 0 14px 0 8px;
+    }
+    &__top {
+        padding: 78px 0 0 6px;
+        margin-bottom: 59px;
+        display: flex;
+    }
+    &__pages-list {
+        &:nth-child(2) {
+            margin-right: 102px;
+        }
+        &:nth-child(3) {
+            margin-right: 99px;
+        }
+        &:nth-child(4) {
+            margin-right: 53px;
+        }
+    }
+    &__socials {
+        margin-right: 156px;
+    }
+    &__logo {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        color: #1B1C31;
+    }
+    &__slogan {
+        margin-top: 18px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        color: $gray-color-primary;
+    }
+    &__social-list {
+        display: flex;
+        margin-top: 31px;
+    }
+    &__social-item {
+        margin-right: 16px;
+    }
+    &__copyright {
+        position: relative;
+        height: 120px;
+        padding: 42px 0 0 0;
+        border-top: 2px solid#F8F8FE;
+        font-family: 'Gilroy';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #181433;
+    }
+}
+
+.pages-list {
+    &__title {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 24px;
+        color: #181433;
+        margin-bottom: 24px;
+    }
+    &__item {
+        font-size: 16px;
+        line-height: 24px;
+        color: #181433;
+        margin-bottom: 12px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    &__email,
+    &__phone {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 150%;
+        color: #181433;
+    }
+    &__email {
+        margin-bottom: 9px;
+        &::before {
+            content: url("../../img/footer/email.svg");
+            width: 22px;
+            height: 22px;
+            margin-right: 11px;
+        }
+    }
+    &__phone {
+        &::before {
+            content: url("../../img/footer/call.svg");
+            width: 22px;
+            height: 22px;
+            margin-right: 11px;
+        }
+    }
+}
